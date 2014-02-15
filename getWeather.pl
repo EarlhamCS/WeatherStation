@@ -107,3 +107,4 @@ die $connection->errorMessage, "\n\nConstraints:\n1-Inside Temp. (0 <= x <= 50)\
 			       "\n Outside Humidity: $out_humidity\n Rain: $rain\n Wind Chill: $wind_chill".
 			       "\n Dew Point: $dew_point\n" unless PGRES_COMMAND_OK eq $result->resultStatus;
 exit;
+
